@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db   = 'library_db';
+$db   = ''; //use your own database
 $user = 'root';
-$pass = 'Asim2002';
+$pass = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
