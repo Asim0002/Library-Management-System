@@ -4,7 +4,7 @@ if (!isset($_SESSION['admin_id'])) {
   header("Location: login.php");
   exit();
 }
-include 'db.php'; // Make sure db.php uses PDO
+include 'db.php'; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $title = trim($_POST['title']);
